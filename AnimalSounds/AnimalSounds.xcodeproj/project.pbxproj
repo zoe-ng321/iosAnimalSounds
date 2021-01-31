@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E84DEA925C766B3008E9BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DEA825C766B3008E9BCD /* AppDelegate.swift */; };
+		2E84DEAB25C766B3008E9BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DEAA25C766B3008E9BCD /* SceneDelegate.swift */; };
+		2E84DEAD25C766B3008E9BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DEAC25C766B3008E9BCD /* ViewController.swift */; };
+		2E84DEB025C766B3008E9BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E84DEAE25C766B3008E9BCD /* Main.storyboard */; };
+		2E84DEB225C766B4008E9BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E84DEB125C766B4008E9BCD /* Assets.xcassets */; };
+		2E84DEB525C766B4008E9BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E84DEB325C766B4008E9BCD /* LaunchScreen.storyboard */; };
+		2E84DEC025C766B4008E9BCD /* AnimalSoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DEBF25C766B4008E9BCD /* AnimalSoundsTests.swift */; };
+		2E84DECB25C766B4008E9BCD /* AnimalSoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DECA25C766B4008E9BCD /* AnimalSoundsUITests.swift */; };
+		2E84DEDC25C769AF008E9BCD /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DED825C769AE008E9BCD /* SimpleSound.swift */; };
+		2E84DEDD25C769AF008E9BCD /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E84DED925C769AE008E9BCD /* woof.m4a */; };
+		2E84DEDE25C769AF008E9BCD /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E84DEDA25C769AE008E9BCD /* meow.m4a */; };
+		2E84DEDF25C769AF008E9BCD /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E84DEDB25C769AE008E9BCD /* moo.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E84DEBC25C766B4008E9BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E84DE9D25C766B3008E9BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E84DEA425C766B3008E9BCD;
+			remoteInfo = AnimalSounds;
+		};
+		2E84DEC725C766B4008E9BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E84DE9D25C766B3008E9BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E84DEA425C766B3008E9BCD;
+			remoteInfo = AnimalSounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E84DEA525C766B3008E9BCD /* AnimalSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E84DEA825C766B3008E9BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E84DEAA25C766B3008E9BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E84DEAC25C766B3008E9BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E84DEAF25C766B3008E9BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E84DEB125C766B4008E9BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E84DEB425C766B4008E9BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E84DEB625C766B4008E9BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E84DEBB25C766B4008E9BCD /* AnimalSoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalSoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E84DEBF25C766B4008E9BCD /* AnimalSoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSoundsTests.swift; sourceTree = "<group>"; };
+		2E84DEC125C766B4008E9BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E84DEC625C766B4008E9BCD /* AnimalSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E84DECA25C766B4008E9BCD /* AnimalSoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSoundsUITests.swift; sourceTree = "<group>"; };
+		2E84DECC25C766B4008E9BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E84DED825C769AE008E9BCD /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		2E84DED925C769AE008E9BCD /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		2E84DEDA25C769AE008E9BCD /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		2E84DEDB25C769AE008E9BCD /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E84DEA225C766B3008E9BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E84DEB825C766B4008E9BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E84DEC325C766B4008E9BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E84DE9C25C766B3008E9BCD = {
+			isa = PBXGroup;
+			children = (
+				2E84DEA725C766B3008E9BCD /* AnimalSounds */,
+				2E84DEBE25C766B4008E9BCD /* AnimalSoundsTests */,
+				2E84DEC925C766B4008E9BCD /* AnimalSoundsUITests */,
+				2E84DEA625C766B3008E9BCD /* Products */,
+				2E84DEDA25C769AE008E9BCD /* meow.m4a */,
+				2E84DEDB25C769AE008E9BCD /* moo.m4a */,
+				2E84DED825C769AE008E9BCD /* SimpleSound.swift */,
+				2E84DED925C769AE008E9BCD /* woof.m4a */,
+			);
+			sourceTree = "<group>";
+		};
+		2E84DEA625C766B3008E9BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E84DEA525C766B3008E9BCD /* AnimalSounds.app */,
+				2E84DEBB25C766B4008E9BCD /* AnimalSoundsTests.xctest */,
+				2E84DEC625C766B4008E9BCD /* AnimalSoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E84DEA725C766B3008E9BCD /* AnimalSounds */ = {
+			isa = PBXGroup;
+			children = (
+				2E84DEA825C766B3008E9BCD /* AppDelegate.swift */,
+				2E84DEAA25C766B3008E9BCD /* SceneDelegate.swift */,
+				2E84DEAC25C766B3008E9BCD /* ViewController.swift */,
+				2E84DEAE25C766B3008E9BCD /* Main.storyboard */,
+				2E84DEB125C766B4008E9BCD /* Assets.xcassets */,
+				2E84DEB325C766B4008E9BCD /* LaunchScreen.storyboard */,
+				2E84DEB625C766B4008E9BCD /* Info.plist */,
+			);
+			path = AnimalSounds;
+			sourceTree = "<group>";
+		};
+		2E84DEBE25C766B4008E9BCD /* AnimalSoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E84DEBF25C766B4008E9BCD /* AnimalSoundsTests.swift */,
+				2E84DEC125C766B4008E9BCD /* Info.plist */,
+			);
+			path = AnimalSoundsTests;
+			sourceTree = "<group>";
+		};
+		2E84DEC925C766B4008E9BCD /* AnimalSoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E84DECA25C766B4008E9BCD /* AnimalSoundsUITests.swift */,
+				2E84DECC25C766B4008E9BCD /* Info.plist */,
+			);
+			path = AnimalSoundsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E84DEA425C766B3008E9BCD /* AnimalSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E84DECF25C766B4008E9BCD /* Build configuration list for PBXNativeTarget "AnimalSounds" */;
+			buildPhases = (
+				2E84DEA125C766B3008E9BCD /* Sources */,
+				2E84DEA225C766B3008E9BCD /* Frameworks */,
+				2E84DEA325C766B3008E9BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalSounds;
+			productName = AnimalSounds;
+			productReference = 2E84DEA525C766B3008E9BCD /* AnimalSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E84DEBA25C766B4008E9BCD /* AnimalSoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E84DED225C766B4008E9BCD /* Build configuration list for PBXNativeTarget "AnimalSoundsTests" */;
+			buildPhases = (
+				2E84DEB725C766B4008E9BCD /* Sources */,
+				2E84DEB825C766B4008E9BCD /* Frameworks */,
+				2E84DEB925C766B4008E9BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E84DEBD25C766B4008E9BCD /* PBXTargetDependency */,
+			);
+			name = AnimalSoundsTests;
+			productName = AnimalSoundsTests;
+			productReference = 2E84DEBB25C766B4008E9BCD /* AnimalSoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E84DEC525C766B4008E9BCD /* AnimalSoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E84DED525C766B4008E9BCD /* Build configuration list for PBXNativeTarget "AnimalSoundsUITests" */;
+			buildPhases = (
+				2E84DEC225C766B4008E9BCD /* Sources */,
+				2E84DEC325C766B4008E9BCD /* Frameworks */,
+				2E84DEC425C766B4008E9BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E84DEC825C766B4008E9BCD /* PBXTargetDependency */,
+			);
+			name = AnimalSoundsUITests;
+			productName = AnimalSoundsUITests;
+			productReference = 2E84DEC625C766B4008E9BCD /* AnimalSoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E84DE9D25C766B3008E9BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Zoe Ng";
+				TargetAttributes = {
+					2E84DEA425C766B3008E9BCD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					2E84DEBA25C766B4008E9BCD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2E84DEA425C766B3008E9BCD;
+					};
+					2E84DEC525C766B4008E9BCD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2E84DEA425C766B3008E9BCD;
+					};
+				};
+			};
+			buildConfigurationList = 2E84DEA025C766B3008E9BCD /* Build configuration list for PBXProject "AnimalSounds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E84DE9C25C766B3008E9BCD;
+			productRefGroup = 2E84DEA625C766B3008E9BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E84DEA425C766B3008E9BCD /* AnimalSounds */,
+				2E84DEBA25C766B4008E9BCD /* AnimalSoundsTests */,
+				2E84DEC525C766B4008E9BCD /* AnimalSoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E84DEA325C766B3008E9BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E84DEDF25C769AF008E9BCD /* moo.m4a in Resources */,
+				2E84DEB525C766B4008E9BCD /* LaunchScreen.storyboard in Resources */,
+				2E84DEB225C766B4008E9BCD /* Assets.xcassets in Resources */,
+				2E84DEB025C766B3008E9BCD /* Main.storyboard in Resources */,
+				2E84DEDE25C769AF008E9BCD /* meow.m4a in Resources */,
+				2E84DEDD25C769AF008E9BCD /* woof.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E84DEB925C766B4008E9BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E84DEC425C766B4008E9BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E84DEA125C766B3008E9BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E84DEAD25C766B3008E9BCD /* ViewController.swift in Sources */,
+				2E84DEA925C766B3008E9BCD /* AppDelegate.swift in Sources */,
+				2E84DEAB25C766B3008E9BCD /* SceneDelegate.swift in Sources */,
+				2E84DEDC25C769AF008E9BCD /* SimpleSound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E84DEB725C766B4008E9BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E84DEC025C766B4008E9BCD /* AnimalSoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E84DEC225C766B4008E9BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E84DECB25C766B4008E9BCD /* AnimalSoundsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E84DEBD25C766B4008E9BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E84DEA425C766B3008E9BCD /* AnimalSounds */;
+			targetProxy = 2E84DEBC25C766B4008E9BCD /* PBXContainerItemProxy */;
+		};
+		2E84DEC825C766B4008E9BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E84DEA425C766B3008E9BCD /* AnimalSounds */;
+			targetProxy = 2E84DEC725C766B4008E9BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E84DEAE25C766B3008E9BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E84DEAF25C766B3008E9BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E84DEB325C766B4008E9BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E84DEB425C766B4008E9BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E84DECD25C766B4008E9BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E84DECE25C766B4008E9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E84DED025C766B4008E9BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalSounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnimalSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E84DED125C766B4008E9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalSounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnimalSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E84DED325C766B4008E9BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalSoundsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnimalSoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalSounds.app/AnimalSounds";
+			};
+			name = Debug;
+		};
+		2E84DED425C766B4008E9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalSoundsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnimalSoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalSounds.app/AnimalSounds";
+			};
+			name = Release;
+		};
+		2E84DED625C766B4008E9BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalSoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnimalSoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalSounds;
+			};
+			name = Debug;
+		};
+		2E84DED725C766B4008E9BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalSoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnimalSoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalSounds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E84DEA025C766B3008E9BCD /* Build configuration list for PBXProject "AnimalSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E84DECD25C766B4008E9BCD /* Debug */,
+				2E84DECE25C766B4008E9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E84DECF25C766B4008E9BCD /* Build configuration list for PBXNativeTarget "AnimalSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E84DED025C766B4008E9BCD /* Debug */,
+				2E84DED125C766B4008E9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E84DED225C766B4008E9BCD /* Build configuration list for PBXNativeTarget "AnimalSoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E84DED325C766B4008E9BCD /* Debug */,
+				2E84DED425C766B4008E9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E84DED525C766B4008E9BCD /* Build configuration list for PBXNativeTarget "AnimalSoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E84DED625C766B4008E9BCD /* Debug */,
+				2E84DED725C766B4008E9BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E84DE9D25C766B3008E9BCD /* Project object */;
+}
